@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <img class="logo" src="Mercury-logotype.svg" alt="logo" />
+      <div class="form">
+        <h1 class="title">Welcome, Stranger!</h1>
+        <p class="description">
+          Please log in to this form if you wish to pass the exam.
+        </p>
+        <div class="fields">
+          <div class="email">
+            <input type="text" placeholder="Email" name="email" required />
+          </div>
+          <div class="password">
+            <input
+              type="password"
+              placeholder="Password"
+              name="password"
+              required
+            />
+          </div>
+        </div>
+        <button type="submit" onclick="window.location.href='logout.html';">
+          <p class="button-text">Login</p>
+          <svg
+            class="icon"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.2183 16.7775C11.9267 17.0577 11.9273 17.5114 12.2198 17.7908C12.5123 18.0703 12.9858 18.0696 13.2774 17.7894L18.7817 12.506C19.0728 12.2263 19.0728 11.7737 18.7817 11.494L13.2774 6.2106C12.9858 5.93036 12.5123 5.92972 12.2198 6.20916C11.9273 6.48859 11.9267 6.9423 12.2183 7.22253L16.4146 11.25H6C5.58579 11.25 5.25 11.5858 5.25 12C5.25 12.4142 5.58579 12.75 6 12.75H16.4146L12.2183 16.7775Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

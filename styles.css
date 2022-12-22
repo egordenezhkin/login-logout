@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgba(29, 31, 38, 0.8);
+  margin: 0;
+  height: auto;
+  width: auto;
+}
+
+.container {
+  background: linear-gradient(135deg, #ac53ff 0%, #4439ff 100%);
+  height: 812px;
+  position: relative;
+  max-width: 375px;
+  min-width: 320px;
+  max-height: 812px;
+  min-height: 568px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  height: 48px;
+  width: 228px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 52px;
+}
+
+.form {
+  background-color: #ffffff;
+  height: 400px;
+  width: 311px;
+  border-radius: 20px;
+  padding: 28px 32px 40px 32px;
+  margin: 206px 32px 206px 32px;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.title {
+  height: 32px;
+  width: 247px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.description {
+  height: 44px;
+  width: 247px;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.fields input {
+  box-sizing: border-box;
+  width: 247px;
+  height: 48px;
+  border: 1px solid rgba(165, 174, 189, 0.2);
+  border-radius: 12px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(29, 31, 38, 0.8);
+  background: rgba(165, 174, 189, 0.1);
+  padding-left: 16px;
+}
+
+::placeholder {
+  color: #a5aebd;
+  padding-top: 12px;
+}
+
+.email {
+  margin-top: 32px;
+}
+
+.password {
+  margin-top: 40px;
+}
+
+input:focus {
+  border: 2px solid #2f7bff;
+  outline: none;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #2f7bff;
+  box-shadow: 0px 8px 24px -4px rgba(47, 123, 255, 0.5);
+  border-radius: 12px;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 14px;
+  width: 180px;
+  height: 48px;
+  border: none;
+  margin-top: 36px;
+  padding: 0;
+  position: relative;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2f7bff;
+  box-shadow: 0px 8px 24px -4px #2f7bff;
+  border-radius: 12px;
+}
+
+button:active {
+  background: #0057ff;
+  border-radius: 12px;
+}
+
+.button-text {
+  width: 37px;
+  height: 22px;
+  padding: 13px 84.5px 13px 58.5px;
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  position: relative;
+}
+
+.icon {
+  /* margin-left: 8px;
+  top: 12px; */
+  top: 12px;
+  left: 103.5px;
+  position: absolute;
+}
+
+/* input:invalid {
+  outline: none;
+  border: 2px solid red;
+  background-color: rgba(165, 174, 189, 0.1);
+} */
